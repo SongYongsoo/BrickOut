@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Brick Out!</title>
+	<link rel="stylesheet" type="text/css" href="(201613187-송용수)PA1.css">
+	<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="(201613187-송용수)PA1.js"></script>
+	<script src="(201613187-송용수)PA1-jquery.js"></script>
+</head>
+<body>	
+	<div id="mainGame">
+		<canvas id="myCanvas" width="960" height="640"></canvas>
+		<audio id="barSound" src="Music/barsound.mp3"></audio>
+		<audio id="brickSound" src="Music/bricksound.mp3"></audio>
+	</div>
+	<div id="stageSelect">
+		<button id="stage1">Stage 1</button>
+		<button id="stage2">Stage 2</button>
+		<button id="stage3">Stage 3</button>
+		<button id="stage4">Stage4</button>
+		<button id="cat">Final Stage</button>
+		<button id="start">게임 시작</button>
+	</div>
+
+	<div id="setting">
+		<button id="setting_Preview">커스텀 게임 만들기</button>
+		<div id="tools">
+			<button id="setting_Image">배경 이미지 설정</button>
+			<button id="setting_Music">배경 음악 설정</button>
+			<button id="setting_Brick">벽돌 설정</button>
+			<button id="setting_Ball">공 설정</button>
+			<button id="setting_Bar">막대 설정</button>
+		</div>
+	</div>
+	<div id="setImage">
+		<button id="image1">배경화면 #1</button>
+		<button id="image2">배경화면 #2</button>
+		<button id="image3">배경화면 #3</button>
+		<button id="image4">배경화면 #4</button>
+		<button id="image5">배경화면 #5</button>
+	</div>
+	<div id="setMusic">
+		<button id="music1">테마곡 #1</button>
+		<button id="music2">테마곡 #2</button>
+		<button id="music3">테마곡 #3</button>
+		<button id="music4">테마곡 #4</button>
+		<button id="music5">테마곡 #5</button>
+	</div>
+	<div id="setBrick">
+		<button id="incSizeBrick">벽돌 크기 증가</button>
+		<button id="decSizeBrick">벽돌 크기 감소</button>
+	</div>
+	<div id="setBall"> 
+		<button id="incSizeBall">공 크기 증가</button>
+		<button id="decSizeBall">공 크기 감소</button>
+		<button id="incSpeedBall">공 속도 증가</button>
+		<button id="decSpeedBall">공 속도 감소</button>
+		<button id="changeColorBall">공 색깔 바꾸기</button>
+	</div>
+</div>
+<div id="setBar">
+	<button id="incSizeBar">막대 길이 증가</button> 
+	<button id="decSizeBar">막대 크기 감소</button>
+	<button id="changeColorBar">막대 색깔 바꾸기</button>
+</div>
+</div>
+</body>
+</html>

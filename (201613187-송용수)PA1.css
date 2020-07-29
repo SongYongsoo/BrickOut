@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+canvas{
+	background-image: url(Image/mainpage.gif);
+	margin: 0 auto;
+}
+#setting_Preview{
+	display: inline-block;
+}
+#tools{
+	display: none;
+}
+#stageSelect{
+	display: block;
+}
+#setting{
+	display: block;
+}
+#setImage{
+	display: none;
+}
+#setMusic{
+	display: none;
+
+}
+#setBrick{
+	display: none;
+
+}
+#setBall{
+	display: none;
+
+}
+#setBar{
+	display: none;
+
+}
